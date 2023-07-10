@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -6,13 +8,20 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
+    fontFamily :{
+      Maglite: ["Maglite","sans-serif"],
+      LufgaLight: ["LufgaLight","sans-serif"],
+      default: ["Impact","sans-serif"],
+      Courier: ["Courier New","sans"],
+      Calming: ["Calming","sans"],
+      Old: ["Comic Sans Ms","sans"]
+    },
+    extend: { 
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        paper: `url(/textures/paper.jpg)`,
+        dirt: `url(/textures/dirt.jpg)`,
       },
     },
-  },
-  plugins: [],
+},
+  plugins: []
 }

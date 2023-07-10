@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Maglite';
+  font-display: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  src: local('Maglite'), url("../assests/fonts/Maglite.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'LufgaLight';
+  font-display: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  src: local('LufgaLight'), url("../assests/fonts/LufgaLight.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Allenoire';
+  font-display: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  src: local('Allenoire'), url("../assests/fonts/Allenoire\ Font.otf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Calming';
+  font-display: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  src: local('Calming'), url("../assests/fonts/Calming.ttf") format('truetype');
+}
+
+body {
+  background-color: white;
+  background-image: url("../assests/textures/grain.png");
+  /* background-color: #e8e1d9; */
+}
