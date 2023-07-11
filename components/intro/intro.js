@@ -5,14 +5,13 @@ import { motion } from 'framer-motion';
 import Marquee from "react-fast-marquee";
 import {AiOutlineGithub, AiOutlineTwitter, AiOutlineMan} from 'react-icons/ai'
 import { AttentionSeeker } from "react-awesome-reveal";
-import useWindowSize from "@rooks/use-window-size"
 import { isBrowser, isMobile } from 'react-device-detect';
 import {PiMusicNotesLight, PiDressLight, PiCampfireLight} from "react-icons/pi"
 import {SlLocationPin} from "react-icons/sl"
 import {BsCodeSlash} from "react-icons/bs"
 import {FcCommandLine} from "react-icons/fc"
 import img from "@/assests/images/mac.png"
-
+  
 const Intro = () => {
     const [hover,setHover] = useState(isMobile)
     const [hover2,setHover2] = useState(isMobile)

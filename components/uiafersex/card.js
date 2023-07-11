@@ -11,7 +11,7 @@ const CardUiaftersex = () => {
                 <Fade cascade duration={600}>
                     <p className="[font-family:'LufgaLight'] text-[#868686] text-[13px]">22.09.23</p>
                     <h2 className="[font-family:'Maglite'] text-2xl text-[black] mt-[13px]">uiaftersex</h2>
-                    <p className="[font-family:'LufgaLight'] text-[#868686] text-sm leading-[25px] mt-[23px] max-w-[400px]">Hello my name is the ojse fkjf kjsj ejkj kelejk knljlndkn dldjdjdk djdljdndld hdododhdo odhd odhoddohdohdod</p>
+                    <p className="[font-family:'LufgaLight'] text-[#868686] text-sm leading-[25px] mt-[23px] max-w-[400px]">A library of intuitive UI components, interactions and interfaces that aim to feel good, inspire to build more or just some "fuck-it why not"s.</p>
                 </Fade>
             </div>
 
@@ -23,7 +23,7 @@ const CardUiaftersex = () => {
                         <div className="relative text-center mt-[35px] p-2.5">
                             <p className="[font-family:'Calming'] text-[#acacac] w-fit text-[13px] m-auto">22.09.23</p>
                             <h2 className="[font-family:'Allenoire'] text-2xl text-[rgb(114,192,255)] mt-[13px]">uiaftersex</h2>
-                            <p className="[font-family:'Calming'] text-[#acacac] text-sm leading-[25px] mt-[23px]">Hello my name is the ojse fkjf kjsj ejkj kelejk knljlndkn dldjdjdk djdljdndld hdododhdo odhd odhoddohdohdod</p>
+                            <p className="[font-family:'Calming'] text-[#acacac] text-sm leading-[25px] mt-[23px]">an intuitive laboratory canvas that showcases uniquely crafted user interfaces & interactions that make you wanna (hopefully) come back to, after sex.</p>
                         </div>
                     </div>
                 {/* </Fade> */}

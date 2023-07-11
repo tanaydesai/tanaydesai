@@ -16,7 +16,7 @@ const CardExploreAI = () => {
                         <div className="relative text-left mt-[13px] p-2.5">
                             <p className="[font-family:'LufgaLight'] text-[#868686] text-[13px]">22.09.23</p>
                             <h2 className="[font-family:'Maglite'] text-2xl text-[black] mt-[13px]">Explore AI</h2>
-                            <p className="[font-family:'LufgaLight'] text-[#868686] text-sm leading-[25px] mt-[23px]">Hello my name is the ojse fkjf kjsj ejkj kelejk knljlndkn dldjdjdk djdljdndld hdododhdo odhd odhoddohdohdod</p>
+                            <p className="[font-family:'LufgaLight'] text-[#868686] text-sm leading-[25px] mt-[23px]">An AI Powered Search for Youtube Videos. Enables search for answers directly inside thousands of YouTube videos, free-of-cost, easy-to-navigate and fast.</p>
                         </div>
                     </div>
                 {/* </Fade> */}
@@ -26,7 +26,7 @@ const CardExploreAI = () => {
                 <Fade cascade duration={600}>
                     <p className="[font-family:'LufgaLight'] text-[#868686] text-[13px]">22.09.23</p>
                     <h2 className="[font-family:'Maglite'] text-2xl text-[black] mt-[13px]">Explore AI</h2>
-                    <p className="[font-family:'LufgaLight'] text-[#868686] text-sm leading-[25px] mt-[23px] max-w-[400px]">Hello my name is the ojse fkjf kjsj ejkj kelejk knljlndkn dldjdjdk djdljdndld hdododhdo odhd odhoddohdohdod</p>
+                    <p className="[font-family:'LufgaLight'] text-[#868686] text-sm leading-[25px] mt-[23px] max-w-[400px]">Built with Semamtic Vector search using Pinecone, GPT-4 only for summarizations and an internal transcription & encoding engine.</p>
                 </Fade>
             </div>
         </div>  
