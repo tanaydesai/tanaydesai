@@ -3,6 +3,8 @@ import React,{useState, useEffect, useRef} from 'react';
 import Image from "next/image";
 import img from "@/assests/images/uiaftersex.png"
 import { Fade, Zoom } from "react-awesome-reveal";
+import {BsLink45Deg, BsGithub} from "react-icons/bs"
+import Link from 'next/link';
 
 const CardUiaftersex = () => {  
     return (   
@@ -11,7 +13,8 @@ const CardUiaftersex = () => {
                 <Fade cascade duration={600}>
                     <p className="[font-family:'LufgaLight'] text-[#868686] text-[13px]">22.09.23</p>
                     <h2 className="[font-family:'Maglite'] text-2xl text-[black] mt-[13px]">uiaftersex</h2>
-                    <p className="[font-family:'LufgaLight'] text-[#868686] text-sm leading-[25px] mt-[23px] max-w-[400px]">A library of intuitive UI components, interactions and interfaces that aim to feel good, inspire to build more or just some "fuck-it why not"s.</p>
+                    <p className="[font-family:'LufgaLight'] text-[#868686] text-sm leading-[25px] mt-[23px] max-w-[400px]">An open-source library of intuitive UI components, interactions and interfaces that aim to feel good, inspire to build more or just some "fuck-it why not"s.</p>
+                    <div className="flex my-10 gap-5 items-center text-[20px]"><Link href="https://uiaftersex.vercel.app/"><BsLink45Deg /></Link> <Link href="https://github.com/tanaydesai/uiaftersex"><BsGithub /></Link> </div>
                 </Fade>
             </div>
 
