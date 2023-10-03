@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Calming";
+  src: url("../assests/fonts/Calming.ttf");
+}
+
+@font-face {
+  font-family: "LufgaLight";
+  src: url("../assests/fonts/LufgaLight.ttf");
+}
+
+@font-face {
+  font-family: "Allenoire";
+  src: url("../assests/fonts/Allenoire\ Font.otf");
+}
+
+
+@layer {
+  body {
+    @apply p-10 bg-[#fdf7ea]
+  }
+
+  /* Website-wide */
+  .main {
+    @apply max-w-[650px] mx-auto h-fit
+  }
+  .title {
+    @apply [font-family:Calming] text-[60px] pt-3
+  }
+  .tag {
+    @apply [font-family:Calming] text-[19px] mx-2 flex items-center gap-3
+  }
+  .header {
+    @apply text-[35px] py-3 pb-10 [font-family:Calming] flex gap-5 items-center
+  }
+  .description {
+    @apply text-[18px] break-words leading-[42px] py-10 px-2 
+  }
+  .icons {
+    @apply flex items-center gap-7 text-[19px] mx-2
+  }
+
+  /* Box */
+  .box {
+    @apply py-1 w-full mb-10 ml-10 max-w-[350px] md:max-w-[650px] 
+  }
+  .box-title {
+    @apply px-3 text-[17px] font-bold mt-1 flex gap-2 items-center [font-family:LufgaLight]
+  }
+  .box-description {
+    @apply mx-2 text-[14px] leading-7 mt-4 py-1 px-1  /* hover:bg-[#d8d8d8] hover:opacity-80 rounded-lg w-fit */
+  }
+  .box-tag {
+    @apply px-3 text-[12px] mt-2 text-[#acacac] [font-family:LufgaLight] tracking-wider
+  }
+  .box-icons {
+    @apply flex gap-5 mt-7 px-3
+  }
+
+}
