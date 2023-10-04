@@ -1,12 +1,16 @@
+"use client"
 import {BsLink45Deg} from "react-icons/bs"
 import { BsGithub } from "react-icons/bs"
 import Link from "next/link"
+import Preview from "@/components/Linkpreviews/Preview"
+
 
 const Slab = ({data,type}) => {
     return (
         <div className="box">
             <div className="box-tag">{data.tag}</div>
-            <div className="box-title">{data.title}</div>{/* <hr className="h-[1px] w-1/2 bg-gray-500"></hr> */}
+            {/* <div className="box-title">{data.title}</div><hr className="h-[1px] w-1/2 bg-gray-500"></hr> */}
+            <div className="box-title"><Preview name={data.title} img={data.img}/></div>
             <div className="box-description">{data.description}</div>
             
             {type === "projects" ? 
