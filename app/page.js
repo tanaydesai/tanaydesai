@@ -13,8 +13,8 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
   const projects = [
+      {title: "uiaftersex", description: "an open-source intuitive laboratory that showcases uniquely crafted user interfaces, interactions & components that make you wanna (hopefully) come back to, after sex.",tag:"25.05.2023",links:["https://uiaftersex.vercel.app/","https://github.com/tanaydesai/uiaftersex"],img:img1},
       {title: "explore ai", description: "an AI Powered Search for Youtube Videos. Enables search for answers directly inside thousands of YouTube videos, free-of-cost, easy-to-navigate & fast.",tag:"31.12.2022",links:["https://exploreai.vercel.app/"],img:img2},
-      {title: "uiaftersex", description: "an open-source intuitive laboratory that showcases uniquely crafted user interfaces, interactions & components that make you wanna (hopefully) come back to, after sex.",tag:"31.12.2022",links:["https://uiaftersex.vercel.app/","https://github.com/tanaydesai/uiaftersex"],img:img1},
 ]
 
   return (
