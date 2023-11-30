@@ -21,7 +21,7 @@
 
 @layer {
   body {
-    @apply p-10 bg-[#fdf7ea]
+    @apply p-10 bg-[#fdf7ea] 
   }
 
   /* Website-wide */
