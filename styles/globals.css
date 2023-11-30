@@ -29,7 +29,7 @@
     @apply max-w-[650px] mx-auto h-fit
   }
   .title {
-    @apply [font-family:Calming] text-[55px] pt-3
+    @apply [font-family:Calming] text-[50px] pt-3
   }
   .tag {
     @apply [font-family:Calming] text-[17px] mx-2 flex items-center gap-3
