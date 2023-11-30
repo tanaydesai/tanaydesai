@@ -11,6 +11,13 @@ module.exports = {
       Calming: ["Calming","sans"],
       Allenoire: ["Allenoire","sans"],
     },
-  },
+    extend:{
+      backgroundImage: {
+        // grain: `url(/textures/grain.png)`,
+        // grain2: `url(/textures/grain2.png)`,
+        grain: `url(/textures/grain.png)`,
+      },
+    },
+},
   plugins: [],
 }
