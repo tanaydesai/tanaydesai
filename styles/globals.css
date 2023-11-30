@@ -19,17 +19,17 @@
 }
 
 
-@layer {
+@layer components{
   body {
-    @apply p-10 bg-[#fdf7ea]
+    @apply p-10 bg-[#fdf7ea] bg-grain [&::-webkit-scrollbar]:hidden
   }
 
   /* Website-wide */
   .main {
-    @apply max-w-[650px] mx-auto h-fit
+    @apply max-w-[650px] mx-auto h-fit 
   }
   .title {
-    @apply [font-family:Calming] text-[55px] pt-3
+    @apply [font-family:Calming] text-[60px] pt-3
   }
   .tag {
     @apply [font-family:Calming] text-[17px] mx-2 flex items-center gap-3
