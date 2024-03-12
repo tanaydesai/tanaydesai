@@ -25,7 +25,7 @@
   }
 
   .main {
-    @apply m-3 lg:px-10 md:px-7 lg:max-w-[560px] md:w-[700px] mx-auto text-left pb-[100px]; 
+    @apply m-3 lg:px-10 md:px-4 lg:max-w-[560px] md:w-[670px] mx-auto text-left pb-[100px]; 
   }
 
   .tag {
