@@ -35,13 +35,13 @@ const Home = () => {
               <h1 className="text-[20px] mt-10 ml-2 font-LufgaLight mb-5">Projects</h1>
               <div className="grid gap-2 lg:grid-cols-2 md:grid-flow-col grid-flow-row mt-3">
                 <Link href="https://uiaftersex.vercel.app/">
-                  <div className="p-3 cursor-default rounded-lg hover:bg-gray-100 lg:w-[240px] md:w-[260px] max-h-[140px]">
+                  <div className="p-3 cursor-default rounded-lg hover:bg-gray-100 lg:w-[240px] md:w-[280px] max-h-[140px]">
                     <h1 className="mb-2 font-LufgaLight text-[17px] text-gray-500">uiaftersex ↗</h1>
                     <DecryptText text={`Laboratory for uniquely crafted user interfaces, interactions & components.`}/>
                   </div>
                 </Link>
                 <Link href="https://exploreai.vercel.app/">
-                  <div className="p-3 cursor-default rounded-lg hover:bg-gray-100 lg:w-[240px] md:w-[260px] max-h-[140px]">
+                  <div className="p-3 cursor-default rounded-lg hover:bg-gray-100 lg:w-[240px] md:w-[280px] max-h-[140px]">
                     <h1 className="mb-2 font-LufgaLight text-[17px] text-gray-500">Explore AI ↗</h1>
                     <DecryptText text={`AI powered search engine for thousands of Youtube videos.`}/>
                   </div>
