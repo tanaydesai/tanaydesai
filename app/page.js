@@ -46,9 +46,9 @@ const Home = () => {
               </div>
 
               <h1 className=" text-[20px] mt-10 ml-2 font-LufgaLight">Open Source</h1>
-              <Link href="" className="text-gray-500 ml-2 text-[17px] mt-5 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="scaling-laws - wip:)"/></Link>
-              <Link href="https://github.com/tanaydesai/pluto" className="text-gray-500 ml-2 text-[17px] mt-2 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="pluto - build small language models with synthetic data from scratch ↗"/></Link>
-              <Link href="https://github.com/tanaydesai/atomgrad" className="text-gray-500 ml-2 text-[17px] mt-2 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="atomgrad - simple autograd engine between micrograd and tinygrad ↗"/></Link>
+              <Link href=""><div className="text-gray-500 ml-2 text-[17px] mt-5 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="scaling-laws - wip:)"/></div></Link>
+              <Link href="https://github.com/tanaydesai/pluto"><div className="text-gray-500 ml-2 text-[17px] mt-2 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="pluto - build small language models with synthetic data from scratch ↗"/></div></Link>
+              <Link href="https://github.com/tanaydesai/atomgrad"><div className="text-gray-500 ml-2 text-[17px] mt-5 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="atomgrad - simple autograd engine between micrograd and tinygrad ↗"/></div></Link>
         </TabsContent>
 
         <TabsContent value="thoughts">
