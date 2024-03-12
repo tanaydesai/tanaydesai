@@ -25,7 +25,7 @@
   }
 
   .main {
-    @apply m-3 md:px-5 px-3 max-w-[560px] mx-auto text-left pb-[100px]; 
+    @apply m-3 md:px-5 px-3 max-w-[600px] mx-auto text-left pb-[100px]; 
   }
 
   .tag {
