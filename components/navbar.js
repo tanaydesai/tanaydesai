@@ -22,7 +22,7 @@ export const Navbar = ()  => {
           onClick={() => setActiveTab(tab.id)}
           className={`${
             activeTab === tab.id ? "" : "hover:text-black/60"
-          } relative rounded-[18px] p-3 px-4 text-md font-LufgaLight  outline-sky-400  transition focus-visible:outline-2`}
+          } relative rounded-[18px] p-3 px-4 text-md font-LufgaLight transition focus-visible:outline-2`}
           style={{
             WebkitTapHighlightColor: "transparent",
           }}
