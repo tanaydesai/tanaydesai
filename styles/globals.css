@@ -21,31 +21,15 @@
 
 @layer components{
   body {
-    @apply p-10 bg-[#fdf7ea] bg-grain [&::-webkit-scrollbar]:hidden
+    @apply p-10 bg-[#fdfcfd]  [&::-webkit-scrollbar]:hidden
   }
 
-  /* Website-wide */
   .main {
-    @apply max-w-[650px] mx-auto h-fit 
-  }
-  .title {
-    @apply [font-family:Calming] text-[60px] pt-3
-  }
-  .tag {
-    @apply [font-family:Calming] text-[17px] mx-2 flex items-center gap-3
-  }
-  .header {
-    @apply text-[30px] py-3 pb-10 [font-family:Calming] flex gap-5 items-center
-  }
-  .description {
-    @apply text-[18px] break-words leading-[42px] pt-[70px] px-2 mx-auto
-  }
-  .icons {
-    @apply flex items-center gap-7 text-[19px] mx-2 my-10
+    @apply m-3 px-10 max-w-[560px] mx-auto text-left pb-[100px]; 
   }
 
-  /* Box */
-  .box {
+   /* Box */
+   .box {
     @apply py-1 w-full mb-10 mx-auto max-w-[370px] md:max-w-[650px]
   }
   .box-title {
@@ -59,6 +43,14 @@
   }
   .box-icons {
     @apply flex gap-5 mt-7 px-3
+  }
+
+  .header {
+    @apply text-[20px] py-3 pb-10 [font-family:Calming] flex gap-5 items-center
+  }
+
+  .tag {
+    @apply text-[15px] ml-1.5 flex items-center gap-2;
   }
 
 }
