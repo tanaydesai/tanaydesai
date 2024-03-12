@@ -13,8 +13,8 @@ export const Navbar = ()  => {
   let [activeTab, setActiveTab] = useState(tabs[0].id);
 
   return (
-    <div className="flex space-x-1 backdrop-blur-[135px] bg-[#f4f2f2] gap-2 w-fit p-2 rounded-[20px]">
-      <TabsList >
+    <div className="flex space-x-1 shrink-0 backdrop-blur-[135px] bg-[#f4f2f2] gap-2 w-fit p-2 rounded-[20px]">
+      <TabsList  className="shrink-0">
       {tabs.map((tab) => (
         <TabsTrigger key={tab.id} value={tab.id}>
         <button
