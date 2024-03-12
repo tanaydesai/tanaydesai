@@ -34,13 +34,13 @@ const Home = () => {
               
               <h1 className="text-[20px] mt-10 ml-2 font-LufgaLight mb-5">Projects</h1>
               <div className="grid gap-2 md:grid-cols-2 md:grid-flow-col grid-flow-row mt-3">
-                <Link href="https://uiaftersex.vercel.app/">
+                <Link href="https://uiaftersex.vercel.app/" className="w-[100%]">
                   <div className="p-3 cursor-default rounded-lg hover:bg-gray-100 max-h-[140px]">
                     <h1 className="mb-2 font-LufgaLight text-[17px]">uiaftersex ↗</h1>
                     <DecryptText text={`Laboratory for uniquely crafted user interfaces, interactions & components.`}/>
                   </div>
                 </Link>
-                <Link href="https://exploreai.vercel.app/">
+                <Link href="https://exploreai.vercel.app/"  className="w-[100%]">
                   <div className="p-3 cursor-default rounded-lg hover:bg-gray-100 max-h-[140px]">
                     <h1 className="mb-2 font-LufgaLight text-[17px]">Explore AI ↗</h1>
                     <DecryptText text={`AI powered search engine for thousands of Youtube videos.`}/>
@@ -57,9 +57,9 @@ const Home = () => {
         <TabsContent value="thoughts">
             <h1 className="[font-family:Calming] text-[39px] pt-3">Thoughts</h1>
             <Fade sentence={`Soon:)`} />
-            <div className="flex gap-1.5 cursor-default items-center mt-10 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight  shrink-0 ">AGI</h1><DecryptText text="AGI by 2024"/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
-            <div className="flex gap-1.5  cursor-default items-center mt-2 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight  shrink-0 ">LLMs</h1><DecryptText text="Large Language Models are awesome"/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
-            <div className="flex gap-1.5  cursor-default items-center mt-2 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight  shrink-0 ">Ultra ⌘+K</h1><DecryptText text="Large Language Models are awesome"/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
+            <div className="flex gap-1.5 cursor-default items-center mt-10 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight  shrink-0 ">AGI</h1><DecryptText text="AGI by 2024" truncate/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
+            <div className="flex gap-1.5  cursor-default items-center mt-2 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight  shrink-0 ">LLMs</h1><DecryptText text="Large Language Models are awesome" truncate/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
+            <div className="flex gap-1.5  cursor-default items-center mt-2 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight  shrink-0 ">Ultra ⌘+K</h1><DecryptText text="Large Language Models are awesome" truncate/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
         </TabsContent>
       </Tabs>
     </div>
