@@ -52,15 +52,14 @@ const Home = () => {
               <div className="text-gray-500 ml-2 text-[17px] mt-5 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="scaling-laws - wip:)"/></div>
               <div className="text-gray-500 ml-2 text-[17px] mt-2 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="pluto - pretraining small language models from scratch. ↗"/></div>
               <div className="text-gray-500 ml-2 text-[17px] mt-2 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="atomgrad - simple vector valued autograd engine between micrograd and tinygrad ↗"/></div>
-              {/* <div className="text-gray-500 ml-2 text-[17px] mt-2 cursor-default font-LufgaLight hover:underline hover:decoration-slate-400"><DecryptText text="canvasify - an open-source AI powered search ↗"/></div> */}
         </TabsContent>
 
         <TabsContent value="thoughts">
             <h1 className="[font-family:Calming] text-[39px] pt-3">Thoughts</h1>
             <Fade sentence={`Soon:)`} />
-            <div className="flex gap-1.5 cursor-default items-center mt-10 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight">AGI</h1><DecryptText text="AGI by 2024"/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
-            <div className="flex gap-1.5  cursor-default items-center mt-2 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight">LLMs</h1><DecryptText text="Large Language Models are awesome"/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
-            <div className="flex gap-1.5  cursor-default items-center mt-2 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight">Ultra ⌘+K</h1><DecryptText text="Large Language Models are awesome"/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
+            <div className="flex gap-1.5 cursor-default items-center mt-10 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight  shrink-0 ">AGI</h1><DecryptText text="AGI by 2024"/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
+            <div className="flex gap-1.5  cursor-default items-center mt-2 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight  shrink-0 ">LLMs</h1><DecryptText text="Large Language Models are awesome"/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
+            <div className="flex gap-1.5  cursor-default items-center mt-2 p-3 rounded-lg hover:bg-gray-100"><h1 className="text-[17px] font-LufgaLight  shrink-0 ">Ultra ⌘+K</h1><DecryptText text="Large Language Models are awesome"/><hr className="flex-grow h-0.2 bg-slate-300"/><h1 className="text-slate-500 ml-1 text-[14px] font-LufgaLight">2023</h1></div>
         </TabsContent>
       </Tabs>
     </div>
