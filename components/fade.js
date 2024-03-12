@@ -9,7 +9,7 @@ export const Fade = ({sentence= "Tanay Desai is a software alchemist by day & us
 
   const renderWords = () => {
     return (
-      <motion.div ref={scope} transition={{type: 'spring', bounce: 0.2}}>
+      <motion.div ref={scope} transition={{type: 'spring', bounce: 0.2}} className='h-fit'>
         {wordsArray.map((word, index) => {
           return (
             <motion.span className="text-gray-500 opacity-0  text-[17px] mt-5 font-LufgaLight">{word === '\n' ? <br /> : word} </motion.span>
@@ -26,9 +26,9 @@ export const Fade = ({sentence= "Tanay Desai is a software alchemist by day & us
       },
       {
         duration: 1,
-        delay: stagger(0.07),
+        delay: stagger(0),
       }
     );
   }, [scope.current]);
-  return <main className="main-container relative mt-5 ml-2">{renderWords()}</main>
+  return <main className="relative mt-5 ml-2">{renderWords()}</main>
 }

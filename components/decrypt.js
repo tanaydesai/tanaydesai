@@ -1,11 +1,11 @@
 "use client"
 import React, { useState, useEffect } from "react"
 
-const chars = "-_~`!@#$%^&*()+=[]{}|;:,.<>?";
+const chars = "!@#$%^&*()+=[]{}|;:,.<>?";
 
 export const DecryptText = ({
   text="Tanay Desai is a multi d",
-  interval = 40,
+  interval = 35,
   truncate = false,
 }) => {
   const [outputText, setOutputText] = useState("");
