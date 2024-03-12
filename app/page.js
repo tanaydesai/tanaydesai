@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="main">
       <Tabs defaultValue="about">
-        <div className="fixed left-[50%] bottom-10 translate-x-[-50%]"><Navbar /></div>
+        <div className="fixed left-[50%] bottom-10 w-fit translate-x-[-50%]"><Navbar /></div>
 
         <TabsContent value="about">
             <h1 className="[font-family:Calming] text-[39px] pt-3">Tanay Desai</h1>
