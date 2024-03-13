@@ -45,7 +45,7 @@ export const DecryptText = ({
   }
 
   return (
-    <div className={`text-gray-500 text-[17px] font-LufgaLight ${truncate && "truncate"}`}>
+    <div className={`text-[#7f7f7d] text-[14px]  font-ABC ${truncate && "truncate"}`}>
       {/* ml-1.5 mt-5  */}
       {outputText}
       {remainder}

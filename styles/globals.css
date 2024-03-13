@@ -4,8 +4,8 @@
 
 
 @layer components{
-  body {
-    @apply p-4 md:p-10 bg-[#fdfcfd] [&::-webkit-scrollbar]:hidden
+  .body {
+    @apply p-4 md:p-10 [&::-webkit-scrollbar]:hidden h-screen w-screen
   }
 
   .main {
@@ -31,4 +31,19 @@
 @font-face {
   font-family: "Allenoire";
   src: url("../assests/fonts/Allenoire\ Font.otf");
+}
+
+@font-face {
+  font-family: "ABC";
+  src: url("../assests/fonts/ABC.ttf");
+}
+
+@font-face {
+  font-family: "Copernicus1";
+  src: url("../assests/fonts/Copernicus1.ttf");
+}
+
+@font-face {
+  font-family: "Copernicus2";
+  src: url("../assests/fonts/Copernicus2.ttf");
 }

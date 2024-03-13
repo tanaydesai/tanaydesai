@@ -9,6 +9,14 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      'LufgaLight': ['LufgaLight', 'sans-serif'],
+      'Calming': ['Calming', 'sans-serif'],
+      'Inter': ['Inter', 'sans-serif'],
+      "ABC": ['ABC', 'sans-serif'],
+      "Copernicus1": ['Copernicus1', 'sans-serif'],
+      "Copernicus2": ['Copernicus2', 'sans-serif'],
+    },
     container: {
       center: true,
       padding: "2rem",

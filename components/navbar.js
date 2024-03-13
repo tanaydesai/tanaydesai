@@ -22,7 +22,7 @@ export const Navbar = ()  => {
           onClick={() => setActiveTab(tab.id)}
           className={`${
             activeTab === tab.id ? "" : "hover:text-black/60"
-          } relative rounded-[18px] p-3 px-4 text-md font-LufgaLight transition focus-visible:outline-2`}
+          } relative rounded-[18px] p-3 px-4 text-sm font-Copernicus2 transition focus-visible:outline-2`}
           style={{
             WebkitTapHighlightColor: "transparent",
           }}
@@ -30,7 +30,7 @@ export const Navbar = ()  => {
           {activeTab === tab.id && (
             <motion.span
               layoutId="bubble"
-              className="absolute inset-0 z-10 rounded-[18px] shadow-sm bg-slate-300 mix-blend-multiply"
+              className="absolute inset-0 z-10 rounded-[18px] shadow-sm bg-[#b8c8bf] mix-blend-multiply"
             //   style={{ borderRadius: 9999 }}
               transition={{ type: "spring", bounce: 0.2, duration: 0.4 }}
             />
