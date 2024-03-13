@@ -12,7 +12,7 @@ export const Fade = ({sentence= "Tanay Desai is a software alchemist by day & us
       <motion.div ref={scope} transition={{type: 'spring', bounce: 0.2}} className='h-fit'>
         {wordsArray.map((word, index) => {
           return (
-            <motion.span className="text-[#91918d] opacity-0  text-[14px] mt-5 font-ABC ">{word === '\n' ? <br /> : word} </motion.span>
+            <motion.span className="text-[#7f7f7d] opacity-0  text-[14px] mt-5 font-ABC ">{word === '\n' ? <br /> : word} </motion.span>
           );
         })}
       </motion.div>
