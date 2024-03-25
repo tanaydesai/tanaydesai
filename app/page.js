@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <Tabs defaultValue="about" className="w-full h-fit">
         <div className="fixed left-[50%] bottom-10 w-fit translate-x-[-50%]"><Navbar /></div>
-        <TabsContent value="about" className="w-full h-fit pb-10 mb-5">
+        <TabsContent value="about" className="w-full bg-[#191919] h-fit pb-10 mb-5">
           <div className="body bg-[#191919]">
             <div className="main">
                 <h1 className="font-Copernicus2 text-[39px] pt-3 text-white">Tanay Desai</h1>
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
         </TabsContent>
 
-        <TabsContent value="work" className="w-full h-fit pb-10 mb-5">
+        <TabsContent value="work" className="w-full bg-[#ebeaea] h-fit pb-10 mb-5">
         <div className="body bg-[#ebeaea]">
           <div className="main">
               <h1 className="font-Copernicus2 text-[39px] pt-3">Work</h1>
@@ -57,7 +57,7 @@ const Home = () => {
           </div>
         </TabsContent>
 
-        <TabsContent value="thoughts" className="w-full h-fit pb-10 mb-5">
+        <TabsContent value="thoughts" className="w-full bg-[#191919] h-fit pb-10 mb-5">
         <div className="body bg-[#191919]">
           <div className="main">
               <h1 className="font-Copernicus2 text-[39px] pt-3 text-white">Thoughts</h1>
