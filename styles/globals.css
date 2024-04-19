@@ -5,11 +5,11 @@
 
 @layer components{
   .body {
-    @apply p-4 md:p-10 [&::-webkit-scrollbar]:hidden h-screen w-screen
+    @apply p-4 md:p-10 [&::-webkit-scrollbar]:hidden h-screen w-screen bg-[#f4f2f2]
   }
 
   .main {
-    @apply m-3 md:px-5 px-3 max-w-[600px] mx-auto text-left pb-[100px]; 
+    @apply m-3 md:px-5 px-3 max-w-[540px] mx-auto text-left pb-[100px] bg-[#f4f2f2]
   }
 
   .tag {
@@ -46,4 +46,20 @@
 @font-face {
   font-family: "Copernicus2";
   src: url("../assests/fonts/Copernicus2.ttf");
+}
+
+
+@font-face {
+  font-family: "EditorialNew-Italic";
+  src: url("../assests/fonts/PPEditorialNew-Italic.otf");
+}
+
+@font-face {
+  font-family: "EditorialNew-Ultralight";
+  src: url("../assests/fonts/PPEditorialNew-Ultralight.otf");
+}
+
+@font-face {
+  font-family: "STY";
+  src: url("../assests/fonts/StyreneA-Regular-Trial-BF63f6cbd970ee9.otf");
 }

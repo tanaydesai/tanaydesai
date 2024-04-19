@@ -14,7 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
-        {/* <div className="absolute left-[50%] bottom-5 translate-x-[-50%]"><Navbar /></div> */}
       </body>
     </html>
   )

@@ -16,6 +16,9 @@ module.exports = {
       "ABC": ['ABC', 'sans-serif'],
       "Copernicus1": ['Copernicus1', 'sans-serif'],
       "Copernicus2": ['Copernicus2', 'sans-serif'],
+      "ENI": ['EditorialNew-Italic', 'sans-serif'],
+      "ENUL": ['EditorialNew-Ultralight', 'sans-serif'],
+      "STY":["STY", "sans-serif"]
     },
     container: {
       center: true,
