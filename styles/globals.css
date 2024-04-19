@@ -22,36 +22,11 @@
 
 }
 
-@font-face {
-  font-family: "Calming";
-  src: url("../assests/fonts/Calming.ttf");
-}
-
-@font-face {
-  font-family: "LufgaLight";
-  src: url("../assests/fonts/LufgaLight.ttf");
-}
-
-@font-face {
-  font-family: "Allenoire";
-  src: url("../assests/fonts/Allenoire\ Font.otf");
-}
-
-@font-face {
-  font-family: "ABC";
-  src: url("../assests/fonts/ABC.ttf");
-}
-
-@font-face {
-  font-family: "Copernicus1";
-  src: url("../assests/fonts/Copernicus1.ttf");
-}
 
 @font-face {
   font-family: "Copernicus2";
   src: url("../assests/fonts/Copernicus2.ttf");
 }
-
 
 @font-face {
   font-family: "EditorialNew-Italic";
