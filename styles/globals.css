@@ -29,16 +29,6 @@
 }
 
 @font-face {
-  font-family: "EditorialNew-Italic";
-  src: url("../assests/fonts/PPEditorialNew-Italic.otf");
-}
-
-@font-face {
-  font-family: "EditorialNew-Ultralight";
-  src: url("../assests/fonts/PPEditorialNew-Ultralight.otf");
-}
-
-@font-face {
   font-family: "STY";
   src: url("../assests/fonts/StyreneA-Regular-Trial-BF63f6cbd970ee9.otf");
 }
