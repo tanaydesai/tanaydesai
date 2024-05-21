@@ -34,7 +34,7 @@ const Home = () => {
                 
                 <h1 className="text-[20px] mt-10 ml-2 font-STY">Projects</h1>
                 <div className="mt-3">
-                  <Link href="https://scaling-laws.vercel.app/">
+                  <Link href="https://scaling-laws.xyz">
                     <div className="p-3 cursor-default rounded-lg ">
                       <h1 className="mb-2 font-STY  text-[14px] flex items-center gap-2.5 "><p>scaling-laws</p></h1>
                       <h1 className="text-[#7f7f7d] font-STY text-[13px]  hover:underline hover:decoration-[#7f7f7d]">Scaling laws web calculator to get a model's training compute flops, costs and energy utilization.</h1>
