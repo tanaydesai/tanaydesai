@@ -34,6 +34,12 @@ const Home = () => {
                 
                 <h1 className="text-[20px] mt-10 ml-2 font-STY">Projects</h1>
                 <div className="mt-3">
+                  <Link href="https://scaling-laws.vercel.app/">
+                    <div className="p-3 cursor-default rounded-lg ">
+                      <h1 className="mb-2 font-STY  text-[14px] flex items-center gap-2.5 "><p>scaling-laws</p></h1>
+                      <h1 className="text-[#7f7f7d] font-STY text-[13px]  hover:underline hover:decoration-[#7f7f7d]">Scaling laws web calculator to get a model's training compute flops, costs and energy utilization.</h1>
+                    </div>
+                  </Link>
                   <Link href="https://uiaftersex.vercel.app/" >
                     <div className="p-3 cursor-default rounded-lg">
                       <h1 className="mb-2 font-STY text-[14px] flex items-center gap-2.5 "><p>uiaftersex</p></h1>
@@ -46,16 +52,16 @@ const Home = () => {
                       <h1 className="text-[#7f7f7d] font-STY text-[13px]  hover:underline hover:decoration-[#7f7f7d]">AI powered semantic search engine for thousands of Youtube videos.</h1>
                     </div>
                   </Link>
+                  <Link href="https://play.google.com/store/apps/details?id=com.darkcarbon.app">
+                    <div className="p-3 cursor-default rounded-lg ">
+                      <h1 className="mb-2 font-STY  text-[14px] flex items-center gap-2.5 "><p>Darkcarbon</p><div className="border-2 border-grey-600 px-2 py-1 rounded-full flex gap-1 items-center font-normal text-[#7f7f7d] justify-center text-[11px]">archived</div></h1>
+                      <h1 className="text-[#7f7f7d] font-STY text-[13px]  hover:underline hover:decoration-[#7f7f7d]">An app to get visual air quality data, track your carbon footprint and make better commute decisions.</h1>
+                    </div>
+                  </Link>
                 </div>
 
                 <h1 className=" text-[20px] mt-10 ml-2 font-STY">Open Source</h1>
                 <div className="mt-3">
-                  <Link href="">
-                    <div className="p-3 cursor-default rounded-lg">
-                      <h1 className="mb-2 font-STY text-[14px] flex items-center gap-2.5 justify-between"><p>scaling-laws</p></h1>
-                      <h1 className="text-[#7f7f7d] text-[13px] font-STY  hover:underline hover:decoration-[#7f7f7d]">coming soon:)</h1>
-                    </div>
-                  </Link>
                   <Link href="https://github.com/tanaydesai/pluto">
                     <div className="p-3 cursor-default rounded-lg ">
                       <h1 className="mb-2 font-STY  text-[14px] flex items-center gap-2.5 justify-between"><p>pluto</p></h1>
@@ -65,7 +71,7 @@ const Home = () => {
                   <Link href="https://github.com/tanaydesai/atomgrad">
                     <div className="p-3 cursor-default rounded-lg ">
                       <h1 className="mb-2 font-STY  text-[14px] flex items-center gap-2.5 justify-between"><p>atomgrad</p></h1>
-                      <h1 className="text-[#7f7f7d] font-STY text-[13px] hover:underline hover:decoration-[#7f7f7d] ">Simple autograd engine between micrograd and tinygrad</h1>
+                      <h1 className="text-[#7f7f7d] font-STY text-[13px] hover:underline hover:decoration-[#7f7f7d] ">Simple autograd engine between micrograd and tinygrad.</h1>
                     </div>
                   </Link>
                 </div>
