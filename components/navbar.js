@@ -4,16 +4,16 @@ import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 let tabs = [
-  { id: "about", label: "About" },
+  // { id: "about", label: "About" },
   { id: "work", label: "Work" },
-  { id: "thoughts", label: "Thoughts" },
+  // { id: "thoughts", label: "Thoughts" },
 ];
 
 export const Navbar = ()  => {
   let [activeTab, setActiveTab] = useState(tabs[0].id);
 
   return (
-    <div className="flex space-x-1 shrink-0 bg-[#f4f2f2]/96 backdrop-blur-[15px] border-2 border-grey-600 z-[100] [filter:drop-shadow(0_16px_20px_rgba(0,0,0,0.1))] w-[260px] gap-2 items-center justify-center p-1 px-4 rounded-[20px]">
+    <div className="flex space-x-1 shrink-0 bg-[#f4f2f2]/96 backdrop-blur-[15px] border-2 border-grey-600 z-[100] [filter:drop-shadow(0_16px_20px_rgba(0,0,0,0.1))] w-[160px] gap-2 items-center justify-center p-1 px-4 rounded-[20px]">
       <TabsList  className="shrink-0">
       {tabs.map((tab) => (
         <TabsTrigger key={tab.id} value={tab.id}>

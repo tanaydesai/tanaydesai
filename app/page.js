@@ -10,9 +10,9 @@ import Link from "next/link"
 const Home = () => {
  
   return (
-    <Tabs defaultValue="about" className="w-full h-fit bg-[#f4f2f2]">
-        <div className="fixed left-[50%] bottom-10 w-fit z-[100] translate-x-[-50%]"><Navbar /></div>
-        <TabsContent value="about" className="w-full h-fit pb-10">
+    <Tabs defaultValue="work" className="w-full h-fit bg-[#f4f2f2]">
+        {/* <div className="fixed left-[50%] bottom-10 w-fit z-[100] translate-x-[-50%]"><Navbar /></div> */}
+        {/* <TabsContent value="about" className="w-full h-fit pb-10">
           <div className="body bg-[#f4f2f2]">
             <div className="main bg-[#f4f2f2]">
                 <h1 className="font-Copernicus2 text-[49px] pt-3 text-[#29261b]">Tanay Desai</h1>
@@ -24,16 +24,22 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        </TabsContent>
+        </TabsContent> */}
 
         <TabsContent value="work" className="w-full h-fit pb-10 bg-[#f4f2f2]">
         <div className="body bg-[#f4f2f2]">
           <div className="main bg-[#f4f2f2]">
-              <h1 className="font-Copernicus2 text-[39px] pt-3 text-[#29261b]">Work</h1>
-                <FadeBox sentence={`Some of my major projects, this is always a work in progress:)`} />
+              <h1 className="font-Copernicus2 text-[39px] pt-3 text-[#29261b]">Tanay Desai</h1>
+                <FadeBox sentence={`Transformers and interfaces.`} />
                 
                 <h1 className="text-[20px] mt-10 ml-2 font-STY">Projects</h1>
                 <div className="mt-3">
+                  <Link href="https://outerreach.vercel.app/">
+                    <div className="p-3 cursor-default rounded-lg ">
+                      <h1 className="mb-2 font-STY  text-[14px] flex items-center gap-2.5 "><p>OUTER REACH</p></h1>
+                      <h1 className="text-[#7f7f7d] font-STY text-[13px]  hover:underline hover:decoration-[#7f7f7d]">A unified and factual way to look at the progress of humanity's energy, space and nuclear frontiers leading to an age of abundance.</h1>
+                    </div>
+                  </Link>
                   <Link href="https://scaling-laws.vercel.app/">
                     <div className="p-3 cursor-default rounded-lg ">
                       <h1 className="mb-2 font-STY  text-[14px] flex items-center gap-2.5 "><p>scaling-laws</p></h1>
@@ -79,7 +85,7 @@ const Home = () => {
           </div>
         </TabsContent>
 
-        <TabsContent value="thoughts" className="w-full bg-[#f4f2f2] h-fit pb-10">
+        {/* <TabsContent value="thoughts" className="w-full bg-[#f4f2f2] h-fit pb-10">
         <div className="body bg-[#f4f2f2]">
           <div className="main">
               <h1 className="font-Copernicus2 text-[39px] pt-3 text-[#29261b]">Thoughts</h1>
@@ -89,7 +95,7 @@ const Home = () => {
               <Link href="https://x.com/tanaydesaii/status/1761847156590207177" className="flex gap-2 cursor-default items-center mt-2 p-3 rounded-lg  shrink-0 hover:underline hover:decoration-[#7f7f7d]"><div className="w-3 h-3 p-1/3 rounded-full flex items-center justify-center bg-[#d2a999]/50"><div className="w-1/2 h-1/2 shrink-0 rounded-full bg-[#d2a999]"/></div><DecryptText text="Age of Abundance" truncate/><hr className="flex-grow h-0.2 bg-[#7f7f7d]"/><h1 className="text-[#7f7f7d] ml-1 text-[12px] font-STY">2024</h1></Link>
           </div>
         </div>
-        </TabsContent>
+        </TabsContent> */}
     </Tabs>
   )
 }
