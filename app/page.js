@@ -34,6 +34,12 @@ const Home = () => {
                 
                 <h1 className="text-[20px] mt-10 ml-2 font-STY">Projects</h1>
                 <div className="mt-3">
+                  <Link href="https://reeeed.ing/">
+                    <div className="p-3 cursor-default rounded-lg ">
+                      <h1 className="mb-2 font-STY  text-[14px] flex items-center gap-2.5 "><p>Reed</p></h1>
+                      <h1 className="text-[#7f7f7d] font-STY text-[13px]  hover:underline hover:decoration-[#7f7f7d]">WIP</h1>
+                    </div>
+                  </Link>
                   <Link href="https://outerreach.vercel.app/">
                     <div className="p-3 cursor-default rounded-lg ">
                       <h1 className="mb-2 font-STY  text-[14px] flex items-center gap-2.5 "><p>OUTER REACH</p></h1>
